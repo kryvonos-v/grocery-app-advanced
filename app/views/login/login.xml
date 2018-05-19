@@ -1,8 +1,32 @@
 <Page
-  class="u-page"
+  class="u-page p-login"
   loaded="pageLoaded"
 >
-  <GridLayout
-    class="u-background u-background--animated"
-  />
+  <GridLayout>
+    <GridLayout
+      class="u-background u-background--animated"
+    />
+
+    <StackLayout
+      class="p-login__start"
+      verticalAlignment="center"
+      horizontalAlignment="center"
+    >
+      <Image
+        src="res://logo_login"
+        stretch="none"
+        horizontalAlignment="center"
+      />
+      <Label
+        class="logo-text l-logo-text"
+        text="GROCERIES"
+        horizontalAlignment="center"
+      />
+
+      <Button
+        text="Login"
+        class="btn"
+      />
+    </StackLayout>
+  </GridLayout>
 </Page>
