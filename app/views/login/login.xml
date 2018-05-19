@@ -3,6 +3,9 @@
   loaded="pageLoaded"
 >
   <GridLayout
+    scaleX="1.4"
+    scaleY="1.4"
     class="u-background"
+    loaded="gridLoaded"
   />
 </Page>
