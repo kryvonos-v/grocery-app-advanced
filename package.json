@@ -1,0 +1,15 @@
+{
+	"description": "NativeScript Application",
+	"license": "SEE LICENSE IN <your-license-filename>",
+	"readme": "NativeScript Application",
+	"repository": "https://github.com/kryvonos-v/nativescript-groceries-app",
+	"nativescript": {
+		"id": "org.nativescript.Groceries",
+		"tns-ios": {
+			"version": "4.0.1"
+		}
+	},
+	"dependencies": {
+		"tns-core-modules": "~4.0.1"
+	}
+}
