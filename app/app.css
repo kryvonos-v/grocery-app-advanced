@@ -5,6 +5,19 @@
   background-position: center;
 }
 
+@keyframes background-pulsate {
+	from { transform: scale(1.4, 1.4); }
+  50%   { transform: scale(1.1, 1.1); }
+  100%   { transform: scale(1.4, 1.4); }
+}
+
+.u-background--animated {
+  animation-name: background-pulsate;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
 .u-page {
   margin-top: -20;
 }
