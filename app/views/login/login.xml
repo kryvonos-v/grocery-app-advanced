@@ -1,1 +1,8 @@
-<Page></Page>
+<Page
+  class="u-page"
+  loaded="pageLoaded"
+>
+  <GridLayout
+    class="u-background"
+  />
+</Page>
