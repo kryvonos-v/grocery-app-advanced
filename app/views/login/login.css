@@ -1,4 +1,27 @@
-.p-login__start {
+.login-start {
   margin-bottom: 5%;
   width: 300;
+  opacity: 1;
+  vertical-align: center;
+  horizontal-align: center;
+}
+
+.login-form {
+  visibility: collapse;
+  opacity: 0;
+  width: 300;
+  vertical-align: center;
+  horizontal-align: center;
+  background: #FFF;
+}
+
+.l-outer-logo-container {
+  visibility: collapse;
+  height: 0;
+  opacity: 0;
+  horizontal-align: center;
+}
+
+.l-outer-logo-container Image {
+  top: -150;
 }

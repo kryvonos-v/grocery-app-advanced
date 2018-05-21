@@ -8,9 +8,8 @@
     />
 
     <StackLayout
-      class="p-login__start"
-      verticalAlignment="center"
-      horizontalAlignment="center"
+      id="loginStart"
+      class="login-start"
     >
       <Image
         src="res://logo_login"
@@ -26,7 +25,45 @@
       <Button
         text="Login"
         class="btn"
+        tap="showLoginForm"
       />
     </StackLayout>
+
+    <StackLayout
+      id="loginForm"
+      class="login-form"
+    >
+      <Label
+        class="logo-text l-logo-text"
+      />
+
+      <TextField
+        class="input"
+        autocorrect="false"
+        autocapitalizationType="none"
+        keyboardType="email"
+      />
+      <TextField
+        class="input"
+        secure="true"
+      />
+
+      <Button
+        text="Login"
+      />
+      <Label
+        text="Forgot password?"
+      />
+    </StackLayout>
+
+    <AbsoluteLayout
+      id="outerLogo"
+      class="l-outer-logo-container"
+    >
+      <Image
+        src="res://logo_login"
+        stretch="none"
+      />
+    </AbsoluteLayout>
   </GridLayout>
 </Page>
